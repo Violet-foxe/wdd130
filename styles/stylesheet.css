@@ -119,9 +119,11 @@ body {
     border: 3px var(--base-l) solid;
     width: 90%;
     margin-top: 10px;
+    margin-bottom: 20px;
     margin-inline: auto;
     box-shadow: 10px 10px 0px var(--olo-d);
     border-radius: 20px;
+    overflow: hidden;
 }
 
 /* header stuff */
@@ -294,7 +296,8 @@ footer{
     padding:0;
     color: white;
     padding: 20px;
-    background: rgba(17,0,51, .5)
+    background: rgba(17,0,51, .5);
+    /* overflow: hidden; */
 }
 
 /* socials */
