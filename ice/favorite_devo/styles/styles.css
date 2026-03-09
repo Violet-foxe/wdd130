@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #d3d3d3, #001f3f);
+  background-repeat: no-repeat; /* Just in case */
+  background-attachment: fixed;
+}
+
+.container {
+  text-align: center;
+}
+
+.header {
+  padding: 20px 0;
+}
+
+.header-image {
+  background-image: url('../images/icenter.png'); /* Replace with your image */
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  border-radius: 15px;
+  border: groove white 5px;
+}
+
+.header-image h1 {
+  margin: 0;
+  line-height: 0.9;
+    font-size: 3.5em;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  background: #00000055;
+}
+
+.content-box {
+  background-color: white;
+  margin: 30px auto;
+  width: 90%;
+  max-width: 900px;
+  padding: 40px;
+  box-shadow: 5px 5px 0px black;
+  min-height: 100px;
+}
+
+table.Table {
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid #001F3F;
+  background-color: #FFFFFF;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.Table td, table.Table th {
+  border: 1px solid #AAAAAA;
+  padding: 6px 10px;
+}
+table.Table tbody td {
+  font-size: 15px;
+  color: #001F3F;
+}
+table.Table thead {
+  background: #103E5C;
+  background: -moz-linear-gradient(top, #4c6e85 0%, #28516c 66%, #103E5C 100%);
+  background: -webkit-linear-gradient(top, #4c6e85 0%, #28516c 66%, #103E5C 100%);
+  background: linear-gradient(to bottom, #4c6e85 0%, #28516c 66%, #103E5C 100%);
+  border-bottom: 2px solid #001F3F;
+}
+table.Table thead th {
+  font-size: 16px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  border-left: 2px solid #D0E4F5;
+}
+table.Table thead th:first-child {
+  border-left: none;
+}
+
+table.Table tfoot td {
+  font-size: 14px;
+}
+table.Table tfoot .links {
+  text-align: right;
+}
+table.Table tfoot .links a{
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}

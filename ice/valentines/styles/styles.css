@@ -1,0 +1,109 @@
+/* Add your CSS here to style your valentines day page */
+/*ids:
+    div wrapper
+        header
+            nav
+                ul
+
+        main
+            h1
+            image
+            section x 3
+                h2
+                p
+
+        footer
+    
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(93, 4, 29);
+    background-image: linear-gradient(to bottom, rgb(93, 4, 29), rgb(165, 88, 132));
+}
+
+#wrapper {
+    margin: 40px;
+    border-radius: 20px;
+    overflow:hidden;
+    background: rgba(255, 230, 240, .2)
+}
+
+nav{
+    background: rgb(192, 89, 144);
+    height: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 15px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    color: white;
+    list-style-type: none;
+    margin: 0px auto;
+    padding: 15px;
+}
+
+nav li{
+    padding: 10px;
+
+}
+
+nav li:hover { 
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    margin: 0px;
+    font-size: 1.2em;
+    background-color: rgb(93, 4, 29);
+}
+
+h1 {
+    justify-self: center;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 45px;
+    margin-top: 20px;
+}
+
+img {
+    width: 60%;
+    margin: 10px 20%;
+    border: 10px white solid;
+    border-radius: 50%;
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:bisque;
+    text-align: center;
+    font-size:1.5em;
+    padding: 10px
+}
+
+p {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    color: rgb(135, 50, 133);
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    background: pink;
+    border: dotted 5px rgb(224, 119, 222);
+    border-radius: 20px;
+    padding: 5px
+}
+
+footer{
+    margin-top: 20px;
+    background-color:rgb(93, 4, 29);
+    text-align: center;
+    color: white;
+    padding: 10px;
+}

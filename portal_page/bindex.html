@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/bstylesheet.css">
+    <title>Bloody's Portal Page</title> 
+    <link rel="icon" type="image" href="images/b-sig-white.png">
+</head>
+<body> 
+    <div id="body-background"></div>
+    <div id="wrapper">
+        <div id="background">
+            <img class="background-img" src="images/herobackground.png" alt="splash art">
+            <div class="background-gradient"></div>
+        </div>
+
+        <header>
+            <img id="logo" src="images/b-sig-white.png" width="150" alt="B Site Logo">
+            <h1 id="title"> Bloody Because Yes Portal Page </h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="[link]">Home</a></li>
+                <li><a href="[link]">Commissions</a></li>
+                <li><a href="[link]">Porfolio</a></li>
+                <li><a href="[link]">Conlangs</a></li>
+                <li><a href="[link]">Stories</a></li>
+                <li><a href="[link]">Contact</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div id="hero">
+                <!-- <img class="hero-img" src="images/herobackground.png" alt="splash art"> -->
+                <h1 id="hero-header" class="hand">Hello!</h1>
+                <p id="hero-message">Commissions are currently closed, but come see everything else I have to offer! Stories, worldbuilding, previous artworks, and constructed languages!</p>
+            </div>
+            <br>
+            <div id="cards">
+                <div class="column-one">
+                    <section>
+                        <img class="card-img" src="images/portfolio-bridge.png" alt="person walking over a bridge in front of a city carved into a cave">
+                        <h2 class="card-title">Portfolio</h2>
+                        <p class="card-desc">Look at what I've drawn</p>
+                    </section>
+                    <section>
+                        <img class="card-img" src="images/stories-celeste.png" alt="sad angel sitting down">
+                        <h2 class="card-title">Stories</h2>
+                        <p class="card-desc">Writing and Worldbuilding</p>
+                    </section>
+                </div>
+                <div class="column-two">
+                    <section>
+                        <img class="card-img" src="images/commission-silas.png" alt="chibi golden angel">
+                        <h2 class="card-title">Commissions</h2>
+                        <p class="card-desc">Commissions are currently closed</p>
+                    </section>
+                    <section>
+                        <img class="card-img" src="images/conlang-zih-poem.png" alt="fictional language calligraphy">
+                        <h2 class="card-title">Conlangs</h2>
+                        <p class="card-desc">Language creation for fun and stories</p>
+                    </section>
+                </div>
+            </div>
+            <div id="hyper">
+                <img class="hyper-img" src="images/hyperfixation-danny-mer.png" alt="a trapped merboy in a glass cage">
+                <h1 class="hyper-header fancy">Current Hyperfixation</h1></h3>
+                <p class="hyper-message">A dream about Danny Phantom getting turned into a mer and suffering a whole lot. It is in <a href="[link]">Stories</a>.</p>
+            </div>
+        </main>
+        <footer>
+            <div id="end">
+                <p>&copy; BloodyBecauseYes</p>
+                <table class="table">
+                    <thead>
+                            <tr>
+                            <th><a id="tumblr-link" href="[link]">Tumblr</a></th>
+                            <th><a id="youtube-link" href="[link]">Youtube</a></th>
+                            <th><a id="discord-link" href="[link]">Discord</a></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                            <tr>
+                            <td><img class="icon" src="images/tumblr-logo.png" alt="Tumblr logo"></td>
+                            <td><img class="icon" src="images/youtube-logo.png" alt="Youtube logo"></td>
+                            <td><img class="icon" src="images/discord-logo.png" alt="Discord logo"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="contact">
+                <h2 id="contact-me">Contact Me</h2>
+                    <p class="contact-msg">If anything, please contact me on Discord.</p>
+                <form action="#" method="get">
+                    <!--Name-->
+                    <label for="name">Name:</label> <!-- written in the back of the box, named to connect to input -->
+                    <input type="text" id="name" name="name" required> <!-- id for styling, name for input being organized when sent, type is what the input is gonna look like -->
+
+                    <!-- Email -->
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <!-- Message -->
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" cols="20" required></textarea>
+
+                    <!-- Newsletter Checkbox 
+                    <div class="stretch">
+                        <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+                        <label for="newsletter">Subscribe to our newsletter</label>
+                    </div>
+
+                     Submit Button -->
+                    <input type="submit" class="submit">
+                </form>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
