@@ -243,6 +243,47 @@ section {
     text-align: center;
 }
 
+/* client page */
+.report-section{
+    margin: 20px;
+    text-align: center;
+    color: var(--base-w);
+    text-shadow: var(--olo-d) 0 0 10px;
+}
+.question {
+    display: block;
+    text-align: left;
+    width: 60%;
+    background: var(--pur-l);
+    padding: 10px;
+    border-radius: 10px 10px 10px 0px;
+    margin: 10px 50px;
+}
+.answer {
+    display: block;
+    text-align: right;
+    width: 60%;
+    margin-inline: 50px;
+    background: var(--olo-l);
+    padding: 10px;
+    border-radius: 10px 10px 0px 10px;
+    justify-self: right;
+    margin: 10px 50px;
+}
+.report-link {
+    display: block;
+    text-align: center;
+    margin-inline: auto;
+    width: 20%;
+    color: var(--base-w);
+    background: var(--red-d);
+    padding: 10px;
+    border-radius: 10px;
+    justify-self: center;
+    margin: 20px;
+}
+
+
 /* hyper fixations */
 #hyper {
     clear: both;
